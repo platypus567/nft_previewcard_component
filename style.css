@@ -1,0 +1,100 @@
+body{
+    font-family: 'Outfit',sans-serif;
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+.maincard{
+    background-color: hsl(216, 50%, 16%);
+    color: white;
+    width: 300px;
+    height: 500px;
+
+}
+
+.mainpic{
+    height: 250px;
+    width: 250px;
+    margin-top: 20px;
+    
+    border-radius: 25px;
+}
+.imgcontain{
+    padding-bottom: 20px;
+    width: 300px;
+    height: 300px;
+    transition: 1s ease-in-out;
+}
+.bodytext{
+    color: hsl(215, 51%, 70%);
+}
+.ethpic{
+    width: 12.5px;
+    height: 25px;
+    
+}
+.clockpic{
+    margin-left: 15px;
+    width: 25px;
+    height: 25px;
+}
+.smalldiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.eth{
+    margin-right: 25px;
+    color: cyan;
+    
+}
+
+.days{
+    color: hsl(215, 51%, 70%);
+}
+.profile{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-top: 1px solid hsl(215, 32%, 27%);
+    padding-top: 15px;
+    
+}
+
+.pfp{
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+}
+.creationof{
+    color: hsl(215, 51%, 70%);
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: cyan;
+}
+.viewpic{
+    opacity: 0;
+    transform: translate(100px,-145px);
+}
+.imgcontain:hover .mainpic{
+    opacity: 0.3;
+    box-shadow: 0 5px 5px black;
+}
+.imgcontain:hover .viewpic{
+    opacity: 1;
+}
+.equilibrium{
+    font-weight: 600;
+
+}
+.equilibrium:hover{
+    color: cyan;
+}
